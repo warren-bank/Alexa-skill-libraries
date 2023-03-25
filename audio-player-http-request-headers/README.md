@@ -58,6 +58,9 @@ exports.handler = Alexa.SkillBuilders.custom()
     SetDefaultAudioPlayerHttpHeadersRequestInterceptor([{
       "name":  "X-Alexa-Skill-Demo",
       "value": "https://github.com/warren-bank/Alexa-skill-demos/tree/alexa-samples/skill-sample-nodejs-audio-player/e93ec39"
+    },{
+      "name":  "X-Alexa-Skill-Library",
+      "value": "https://github.com/warren-bank/Alexa-skill-libraries/tree/master/audio-player-http-request-headers"
     }])
   )
   .lambda();
@@ -78,4 +81,5 @@ The code for the previous _usage_ example is taken from [this](https://github.co
 #### Legal:
 
 * copyright: [Warren Bank](https://github.com/warren-bank)
-* license: [GPL-2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
+* license: [Apache-2.0](https://github.com/warren-bank/Alexa-skill-libraries/raw/master/audio-player-http-request-headers/LICENSE.txt)
+  - same as the [Alexa Skills Kit SDK for Node.js](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/blob/2.0.x/LICENSE)
