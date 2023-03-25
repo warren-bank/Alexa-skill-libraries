@@ -1,0 +1,16 @@
+{
+  "name": "@warren-bank/alexa-skill-library-audio-player-http-request-headers",
+  "version": "1.0.0",
+  "main": "lib/audio-player-http-request-headers.js",
+  "description": "Add API methods missing from Alexa ResponseBuilder to configure HTTP headers to include in requests for audio stream URLs",
+  "license": "GPL-2.0",
+  "author": {
+    "name": "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url": "https://github.com/warren-bank"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren-bank/Alexa-skill-libraries/tree/master/audio-player-http-request-headers"
+  }
+}
